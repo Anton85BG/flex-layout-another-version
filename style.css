@@ -180,6 +180,18 @@ footer {
 body {
 	background-image: none;
 }
+	
+header {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	background: url('zagl2.jpg');
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	padding: 2rem;
+	border-radius: 10%;
+}
 
  .main-and-aside {
 	 background-image: linear-gradient(to bottom, lightblue, darkblue);
